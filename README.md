@@ -19,7 +19,7 @@ Note: The UI is currently in the development stage, and users might experience c
   - Delete films from the list
 
 - **Export and Download**
-  - Download film lists locally in `.txt`, `.docx`, and `.csv` formats
+  - Download film lists locally in `.txt`, `.docx`, and `.json` formats
 
 - **Localization**
   - Internalization support with languages: English (en), Russian (ru), Azerbaijani (az)
