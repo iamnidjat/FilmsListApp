@@ -1,0 +1,15 @@
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background: #1ab188;
+  color: white;
+  width: 100%;
+}
+
+.button:hover{
+  opacity: .9;
+}

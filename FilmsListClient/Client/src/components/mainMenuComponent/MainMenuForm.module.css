@@ -1,0 +1,161 @@
+.container {
+    font-family: 'Arial, sans-serif';
+    color: #333;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .title {
+    color: #272525;
+    font-weight: 800;
+    font-size: 18px;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .secondaryButton {
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6c757d;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .secondaryButton:hover {
+    background-color: #5a6268;
+  }
+  
+  .tabs {
+    display: flex;
+    margin: 20px 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .tabButton {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .tabButton:hover,
+  .tabButton:focus {
+    border-bottom: 2px solid #007bff;
+    outline: none;
+  }
+  
+  .activeTab {
+    border-bottom: 2px solid #007bff;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .thStyle {
+    border-bottom: 2px solid #eaeaea;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .actionButton {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .actionButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .deleteButton {
+    background-color: #dc3545;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c82333;
+  }
+  
+  .watchListButton {
+    background-color: #28a745;
+  }
+  
+  .watchListButton:hover {
+    background-color: #218838;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .pageButton {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .pageButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .pageButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

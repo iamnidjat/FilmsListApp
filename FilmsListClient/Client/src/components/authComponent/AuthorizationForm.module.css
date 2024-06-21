@@ -1,0 +1,40 @@
+.authForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #13232f;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttonsDiv {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-direction: row;
+  width: 100%;
+}
+
+.nameInputDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .nameInputDiv input {
+    
+} */
+
+.text {
+  color: #fff;
+  font-weight: 300;
+  font-size: 50px;
+  margin: 0 0 40px;
+}
